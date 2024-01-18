@@ -5,8 +5,8 @@ public class Main {
         int purchaseAmount = 10550; // рублей
         int amount = 20; // рублей для одной бонусной мили
 
-        int m = purchaseAmount / amount; // миль
+        int bonusMiles = purchaseAmount / amount; // бонусных миль
 
-        System.out.println(m);
+        System.out.println(bonusMiles);
     }
 }
